@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Layouts", "Layouts\Layouts.csproj", "{408102E8-0670-446F-A279-73F0D05780EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{408102E8-0670-446F-A279-73F0D05780EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{408102E8-0670-446F-A279-73F0D05780EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{408102E8-0670-446F-A279-73F0D05780EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{408102E8-0670-446F-A279-73F0D05780EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2FC32EE-DB16-4125-8CC5-C27839BE98EA}
+	EndGlobalSection
+EndGlobal

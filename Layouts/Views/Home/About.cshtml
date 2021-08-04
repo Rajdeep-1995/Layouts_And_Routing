@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "About";
+   
+}
+
+<h2>I am About page</h2>
+
+
+@{
+    ViewBag.Message = "Explore more about us";
+}
+
+
+@{ 
+    ViewBag.name = "Products";
+    ViewBag.items = new List<string> { "Mobiles", "Laptops", "Air Conditioner" };
+    Html.RenderPartial("ListPartialView");
+}
+
+@section SideBarOptions {
+
+    <a href="#" class="list-group-item text-white" style="background-color:transparent">About Company</a>
+    <a href="#" class="list-group-item text-white" style="background-color:transparent">About Team</a>
+    <a href="#" class="list-group-item text-white" style="background-color:transparent">About Founder</a>
+}
